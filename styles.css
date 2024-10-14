@@ -1,3 +1,7 @@
+body {
+  background-color: #393E46;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -7,11 +11,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
-}
-
-body {
-  background-color: #393E46;
 }
 
 h1 {
@@ -37,5 +36,54 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
+#startButton {
+  display: block; /* Make button a block element */
+  margin: 20px auto; /* Center the button with automatic margins */
+  padding: 15px 30px;
+  background-color: #4ECCA3;  /* A vibrant color that matches the theme */
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;  /* Choose a clean, simple font */
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Soft shadow for depth */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
+#startButton:hover {
+  background-color: #3BAF8D;  /* Slightly darker on hover */
+  transform: scale(1.05);  /* Slight enlarge effect */
+}
+
+#startButton:active {
+  background-color: #33977C;  /* Even darker on click */
+  transform: scale(0.98);  /* Slight compress on click */
+}
+
+
+#refreshButton {
+  display: block; /* Make button a block element */
+  margin: 20px auto; /* Center the button with automatic margins */
+  padding: 15px 30px;
+  background-color: #ff6347;  /* A vibrant tomato color */
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;  /* Choose a clean, simple font */
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Soft shadow for depth */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#refreshButton:hover {
+  background-color: #e5533d;  /* Slightly darker on hover */
+  transform: scale(1.05);  /* Slight enlarge effect */
+}
+
+#refreshButton:active {
+  background-color: #cc4730;  /* Even darker on click */
+  transform: scale(0.98);  /* Slight compress on click */
 }
